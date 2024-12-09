@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "BCD_backend": {
+      "main": "src/BCD_backend/main.mo",
+      "type": "motoko"
+    },
+    "Oracle": {
+      "main": "src/BCD_backend/Oracle.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
